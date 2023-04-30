@@ -1,0 +1,364 @@
+header {
+    background-color:#fff;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20px;
+  }
+  
+  body{
+    padding:0 80 0 -100px;
+  }
+  
+  main{
+    height: 600px;
+  }
+  h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35pt;
+    color: rgba(75, 104, 254, 1);
+    margin: 30px 60px 60px;
+  }
+  
+  h3 {
+    font-family: 'Hepta Slab', serif;
+    font-weight: normal;
+    font-size: 30pt;
+    color: rgba(75, 104, 254, 1); 
+    margin: 0;
+    line-height: 85px; /*parametro per cambiare la distanza di wwh*/
+  }
+  
+  
+  br {
+    display: block;
+    margin-bottom: 100px;
+  }
+  
+  img {
+    max-width: 484px;
+    height: 531px;
+  }
+  
+  a {
+    text-decoration:none;
+    color: rgba(75, 104, 254, 1); 
+  }
+  
+  a:active {   
+    color: rgba(75, 104, 254, 1); 
+  }
+  a:visited {   
+    color: rgba(75, 104, 254, 1); 
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    list-style-type:none;
+  }
+  
+  
+  nav ul{
+    display: flex;
+    padding: 0 148px;
+    margin: -30px 0 0 0;
+    white-space: nowrap;
+  }
+  nav a:hover {
+    color: rgba(143, 161, 255, 1);
+  }
+  a.sinistra, div.destra {
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  a.sinistra {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: rgba(75, 104, 254, 1);
+  }
+  a.destra {  
+    padding: 10px 10px 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: rgba(75, 104, 254, 1);
+  }
+  
+  
+  .testowwh {
+    margin: -500px 720px 0 360px;
+    padding: 0;
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  .where {
+    
+    padding: 0 110px;
+  }
+  
+  p {
+    text-align: right;
+    width: 440px;
+    height: 531px;
+    font-family: Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: 23pt;
+    color: #000;
+  }
+
+  .cercavi{
+    padding: 0 280px;
+    margin: -10px;
+  }
+  
+  .indiceartisti {
+    font-family: Helvetica, sans-serif;
+    font-size: 30pt;
+    color:rgba(75, 104, 254, 1);
+    margin: 40px 720px 1200px 430px;
+    padding: 0;
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+  .nomeagenzia{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+    display: flex;
+    padding: 34px 70px;
+    color: #000;
+    max-height: 50px;
+  }
+  
+  .nomifooter{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    color: #000; 
+    margin: -110px 900px;
+    white-space: nowrap;
+  }
+
+.fine{
+  padding:0 10px;
+}
+
+footer{
+  background-color: rgba(168, 181, 250, 1);
+  height: 100px;
+  width: 1990px;
+  } 
+  
+  #wrapper {
+    margin: 0px 750px;
+    width: 601px;
+    height: 484px;
+  }
+  
+  .slider {
+    position: absolute;
+    height: 601px;
+    outline: 0 solid black;
+    width: 601px;
+    overflow: hidden;
+  }
+  .slides {
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 1000%;
+  }
+  .slide {
+    position: relative;
+    float: left;
+    height: 484px;
+    width: 601px;
+  }
+  
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  .slider .nav {
+    position: absolute;
+    text-align: center;
+    z-index: 6;
+    top: 550px;
+    width: 200px;
+  }
+  
+  label.bottom {
+    background:rgba(143, 161, 255, 1);
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+  }
+  #slide0:checked ~ .nav > label[for="slide0"],
+  #slide1:checked ~ .nav > label[for="slide1"],
+  #slide2:checked ~ .nav > label[for="slide2"],
+  #slide3:checked ~ .nav > label[for="slide3"],
+  #slide4:checked ~ .nav > label[for="slide4"],
+  #slide5:checked ~ .nav > label[for="slide5"],
+  #slide6:checked ~ .nav > label[for="slide6"],
+  #slide7:checked ~ .nav > label[for="slide7"],
+  #slide8:checked ~ .nav > label[for="slide8"],
+  #slide9:checked ~ .nav > label[for="slide9"] {
+    background: rgba(3, 33, 188, 1);
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  }
+  #slide0:checked ~ .slides { margin-left: 0; }
+  #slide1:checked ~ .slides { margin-left: -100%; }
+  #slide2:checked ~ .slides { margin-left: -200%; }
+  #slide3:checked ~ .slides { margin-left: -300%; }
+  #slide4:checked ~ .slides { margin-left: -400%; }
+  #slide5:checked ~ .slides { margin-left: -500%; }
+  #slide6:checked ~ .slides { margin-left: -600%; }
+  #slide7:checked ~ .slides { margin-left: -700%; }
+  #slide8:checked ~ .slides { margin-left: -800%; }
+  #slide9:checked ~ .slides { margin-left: -900%; }
+  
+  @media (max-width: 1200px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:100%;
+        margin: -45px 500px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;  
+    }    
+    nav ul{
+      display: flex;
+      padding: 0 0px 0 800px;
+      margin: -30px 0 0 0px;
+    }
+    #wrapper {
+      margin: 0px 750px;
+      width: 101px;
+      height: 484px;
+    } 
+    .partetestuale{
+      width: 75%;
+      max-width: 370px;
+    }
+  }
+  
+  @media (max-width: 1100px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:80%;
+        margin: -80px 500px -200px -80px;
+        padding: -900px 500px;
+        border: -200px;  
+    }    
+    nav ul{
+      display: flex;
+      padding: 0 0px 0 800px;
+      margin: -30px 0 0 0px;
+    }
+    #wrapper {
+      margin: 0px 750px;
+      width: 101px;
+      height: 484px;
+    } 
+    .partetestuale{
+      width: 75%;
+      max-width: 370px;
+    }
+  }
+  
+  @media (max-width: 1000px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:80%;
+        margin: -70px 540px -200px -100px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  @media (max-width: 900px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:70%;
+        margin: -120px 580px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  @media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:60%;
+        margin: -140px 500px -200px -140px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  @media (max-width: 700px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:50%;
+        margin: -180px 300px -200px -250px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  @media (max-width: 600px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:40%;
+        margin: -220px 300px -200px -100px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  
+  @media (max-width: 500px) { 
+    body { 
+        scale:30%;
+        margin: -240px 150px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  @media (min-width: 1500px) { 
+      header {
+        background-color:#fff;
+        padding:20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: -20px;
+      }  
+  
+    main { 
+  
+      padding: 0 100px;
+    }
+    .indiceartisti {
+      font-family: Helvetica, sans-serif;
+      font-size: 30pt;
+      color:rgba(75, 104, 254, 1);
+      margin: 40px 940px 1200px 430px;
+      padding: 0;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .testowwh {
+      margin: -500px 940px 0 270px;
+      padding: 0;
+      text-align: right;
+    }
+  
+    
+  }

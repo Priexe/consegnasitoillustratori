@@ -1,0 +1,415 @@
+header {
+    background-color:#fff;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -20px;
+  }
+  
+  body{
+    padding:0 80 0 -100px;
+  }
+
+  h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35pt;
+    color: rgba(75, 104, 254, 1);
+    margin: 30px 60px 60px;
+  }
+
+  h3 {
+    font-family: 'Hepta Slab', serif;
+    font-weight: normal;
+    line-height: 48px; /*parametro per cambiare la distanza delle righe di wwh*/
+  }
+  
+  h4 {
+   font-family: 'Hepta Slab', serif;
+    font-size: 70pt;
+    color:rgba(3, 33, 188, 1);
+    margin: 0;
+    line-height: 85px; /*parametro per cambiare la distanza delle righe di camilo*/
+  }
+  
+  
+  br {
+    display: block;
+    margin-bottom: 100px;
+  }
+  
+  img {
+    max-width: 484px;
+    height: 531px;
+  }
+  
+  a {
+    text-decoration:none;
+    color: rgba(75, 104, 254, 1); 
+  }
+  
+  a:active {   
+    color: rgba(75, 104, 254, 1); 
+  }
+  a:visited {   
+    color: rgba(75, 104, 254, 1); 
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  ul {
+    list-style-type:none;
+  }
+  
+  p {
+    font-family: Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: 23pt;
+    color: #000;
+  }
+ 
+  .partetestuale{
+   width: 440px;
+    height: 531px;
+    margin: -370px 130px 0 670px; /*parametro per cambiare i parametri del testo*/
+  }
+
+
+  nav ul{
+    display: flex;
+    padding: 0 148px 0 0;
+    margin: -30px 0 0 0px;
+    white-space: nowrap;
+  }
+  nav a:hover {
+    color: rgba(143, 161, 255, 1);
+  }
+  a.sinistra, div.destra {
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  a.sinistra {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: rgba(75, 104, 254, 1);
+  }
+  a.destra {  
+    padding: 10px 10px 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: rgba(75, 104, 254, 1);
+  }
+  
+  
+  .testowwh {
+    font-family: 'Hepta Slab', serif;
+    font-weight: normal;
+    font-size: 30pt;
+    color: rgba(75, 104, 254, 1); 
+    margin: -525px 720px 0 480px; /*parametro per cambiare l'altezza wwh*/
+    padding: 0 0px 0 0;
+    border: 0 0px 0 0;
+    text-align: right;
+  }
+  
+.where {
+  margin: 0 780px 0 -20px;
+}
+
+.work {
+  margin: 0 780px 0 15px;
+}
+
+.happens{
+    margin: 0 780px 0 -70px;
+}
+
+  .indiceartisti {
+    font-family: Helvetica, sans-serif;
+    font-size: 35pt;
+    color:rgba(75, 104, 254, 1);
+    margin: -25px 713px 0 300px; /*parametro per cambiare l'altezza di camilo*/
+    padding: auto;
+    border: auto;
+    text-align: right;
+  }
+
+.nomecam{
+  margin: 0 780px 0 -70px;
+}
+.cognomecam{
+  margin: 0 780px 0 -70px;
+}
+
+.nometim{
+  margin: 0 780px 0 80px;
+}
+.cognometim{
+  margin: 0 780px 0 -30px;
+}
+
+.nomekarl{
+  margin: 0 780px 0 -145px;
+}
+.cognomekarl{
+margin: 0 780px 0 -20px;
+}
+
+.nomexo{
+  margin: 0 780px 0 -30px;
+}
+.cognomexo{
+margin: 0 780px 0 -95px;
+}
+
+.nomeboca{
+  margin: 0 780px 0 165px;
+}
+
+.cognomeboca{
+  margin: 0 780px 0 35px; 
+}
+
+.nomelinn{
+  margin: 0 780px 0 60px; 
+}
+
+.cognomelinn{
+  margin: 0 780px 0 53px; 
+}
+
+.immaginexo{
+padding: 20px 100px 20px 10px;
+}
+
+.immaginekarl{
+  padding: 20px 100px 10px 30px;
+}
+
+.immaginecam{
+  padding: 20px 100px 10px 40px;
+}
+.immaginecami{
+  padding: 20px 100px 10px 27px;
+}
+.immaginecamil{
+  padding: 20px 100px 10px 0px;
+}
+
+.immaginel {
+  padding: 20px 70px 20px 0px;
+  border: 0 -40px 0 -40px;
+}
+
+.immaginela {
+  padding: 20px 70px 20px 0px;
+  border: 0 -40px 0 -40px;
+}
+ 
+.immaginelabo {
+  padding: 20px 70px 20px 45px;
+  border: 0 -40px 0 -40px;
+}
+
+.immaginelaboca {
+  padding: 20px 70px 20px 45px;
+  border: 0 -40px 0 -40px;
+}
+ 
+
+  .galleria {
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 180px;
+    margin: -180px 0px 0px 232px;
+    padding: -300px 0px 0px 0px;
+  }
+
+  .galleriatim{
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 180px;
+    margin: -180px 0px 0px 195px;
+    padding: -300px 0px 0px 0px;
+  }
+
+  .galleriakarl{
+  display: grid;
+  grid-template-columns: 1fr;
+  line-height: 180px;
+  margin: -180px 0px 0px 205px;
+  padding: -300px 0px 0px 0px;
+  }
+
+  .gallerialinn{
+    display: grid;
+    grid-template-columns: 1fr;
+    line-height: 180px;
+    margin: -180px 0px 0px 155px;
+    padding: -300px 0px 0px 0px;
+  }
+
+  .immagine {
+    padding: 20px 0 0 0px;
+  }
+ 
+  #wrapper {
+    margin: 0px 350px;
+    width: 601px;
+    height: 484px;
+  }
+
+  .nomeagenzia{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+    display: flex;
+    padding: 34px 70px;
+    color: #000;
+  }
+
+  .nomifooter{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    color: #000; 
+    margin: -100px 900px;
+    white-space: nowrap;
+  }
+
+.fine{
+  padding:0 10px;
+}
+
+footer{
+  background-color: rgba(168, 181, 250, 1);
+  height: 100px;
+  width: 1990px;
+  }
+  
+  @media (max-width: 1200px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:90%;
+        margin: -145px 500px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;  
+    }    
+    nav ul{
+      display: flex;
+      padding: 0 0px 0 800px;
+      margin: -30px 0 0 0px;
+    }
+    #wrapper {
+      margin: 0px 750px;
+      width: 101px;
+      height: 484px;
+    } 
+    .partetestuale{
+      width: 75%;
+      max-width: 370px;
+    }
+  }
+
+  @media (max-width: 1100px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:80%;
+        margin: -270px 500px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;  
+    }    
+    nav ul{
+      display: flex;
+      padding: 0 0px 0 800px;
+      margin: -30px 0 0 0px;
+    }
+    #wrapper {
+      margin: 0px 750px;
+      width: 101px;
+      height: 484px;
+    } 
+    .partetestuale{
+      width: 75%;
+      max-width: 370px;
+    }
+  }
+
+  @media (max-width: 1000px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:80%;
+        margin: -270px 500px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+  
+  @media (max-width: 900px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:70%;
+        margin: -420px 500px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+
+  @media (max-width: 800px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:60%;
+        margin: -550px 500px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+
+  @media (max-width: 700px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:50%;
+        margin: -690px 300px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+
+  @media (max-width: 600px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:40%;
+        margin: -830px 300px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+
+
+  @media (max-width: 500px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */
+    body { 
+        scale:30%;
+        margin: -970px 150px -200px -50px;
+        padding: -900px 500px;
+        border: -200px;
+    }
+  }
+
+  @media (min-width: 1440px) { /* se la finestra ha una larghezza minore di 800px, fai lo sfondo giallo */ 
+
+    main { 
+  
+      padding: 0 100px;
+    }
+    
+  
+    
+  }
+
+
+
+  
+ 
+
+  
